@@ -173,11 +173,8 @@ body {
 .footer-top {
     display: flex;
    padding-bottom: 80px;
+   gap: 270px;
 }
-.footer-top-imgs {
-    padding-right: 270px;
-}
-
 .footer-top-title {
     color: #FFF;
     font-family: Quicksand;
@@ -218,9 +215,8 @@ body {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
+   
     font-weight: 400;
-    line-height: normal;
     opacity: 0.5;
     text-align: center;
     padding-top: 63px;
