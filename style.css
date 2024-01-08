@@ -14,6 +14,7 @@ ul {
 
 body {
     margin: 0;
+    font-family: Quicksand;
 }
 
 .container {
@@ -59,7 +60,6 @@ body {
 
 .hero-title {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 64px;
     font-weight: 700;
     text-transform: capitalize;
@@ -69,7 +69,6 @@ body {
 
 .hero-text {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 32px;
     font-weight: 700;
     opacity: 0.5;
@@ -77,7 +76,6 @@ body {
 
 .content-title {
     color: #000;
-    font-family: Quicksand;
     font-size: 40px;
     font-weight: 600;
     padding-top: 80px;
@@ -94,7 +92,6 @@ body {
 .destinations-title-contry {
     color: #000;
     text-align: center;
-    font-family: Quicksand;
     font-size: 36px;
     font-weight: 500;
     margin-top: 30px;
@@ -104,7 +101,6 @@ body {
 .destinations-text {
     color: #000;
     text-align: center;
-    font-family: Quicksand;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -113,7 +109,6 @@ body {
 .destinations-link {
     color: #7C7C7C;
     text-align: center;
-    font-family: Quicksand;
     font-size: 24px;
     font-weight: 500;
 }
@@ -144,7 +139,6 @@ body {
 
 .blog-date {
     color: #7C7C7C;
-    font-family: Quicksand;
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 25px;
@@ -152,7 +146,6 @@ body {
 
 .blog-title {
     color: #000;
-    font-family: Quicksand;
     font-size: 24px;
     font-weight: 600;
     padding-bottom: 20px;
@@ -160,7 +153,6 @@ body {
 
 .blog-text {
     color: #7C7C7C;
-    font-family: Quicksand;
     font-size: 20px;
     font-weight: 600;
 
@@ -177,7 +169,6 @@ body {
 }
 .footer-top-title {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 40px;
     font-weight: 600;
     padding-top: 75px;
@@ -200,7 +191,6 @@ body {
 }
 .footer-top-link {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 24px;
     text-decoration: none;
     font-weight: 600;
@@ -215,7 +205,6 @@ body {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-   
     font-weight: 400;
     opacity: 0.5;
     text-align: center;
