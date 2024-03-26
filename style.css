@@ -14,7 +14,9 @@ ul {
 
 body {
     margin: 0;
-    font-family: Quicksand;
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+
 }
 
 .container {
@@ -25,7 +27,8 @@ body {
 .header {
     border-bottom: 1px solid #FFF;
     background: #0C70AC;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .header-list {
@@ -36,18 +39,20 @@ body {
 
 .header-link {
     color: #FFF;
-    font-size: 24px;
     font-weight: 700;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: block;
 }
+
+.header-link:hover {
+    color: #F4DE1F;
+}
+
 .header-link_active {
     color: #F4DE1F;
 }
+
 .hero {
     background: #0C70AC;
 }
@@ -56,6 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 447px;
+    align-items: center;
 }
 
 .hero-title {
@@ -63,7 +69,6 @@ body {
     font-size: 64px;
     font-weight: 700;
     text-transform: capitalize;
-    margin-top: 170px;
     margin-bottom: 20px;
 }
 
@@ -72,6 +77,8 @@ body {
     font-size: 32px;
     font-weight: 700;
     opacity: 0.5;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+
 }
 
 .content-title {
@@ -101,7 +108,7 @@ body {
 .destinations-text {
     color: #000;
     text-align: center;
-    font-size: 24px;
+
     font-weight: 500;
     margin-bottom: 30px;
 }
@@ -109,7 +116,7 @@ body {
 .destinations-link {
     color: #7C7C7C;
     text-align: center;
-    font-size: 24px;
+
     font-weight: 500;
 }
 
@@ -146,7 +153,7 @@ body {
 
 .blog-title {
     color: #000;
-    font-size: 24px;
+
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -164,9 +171,10 @@ body {
 
 .footer-top {
     display: flex;
-   padding-bottom: 80px;
-   gap: 270px;
+    padding-bottom: 80px;
+    gap: 270px;
 }
+
 .footer-top-title {
     color: #FFF;
     font-size: 40px;
@@ -174,36 +182,42 @@ body {
     padding-top: 75px;
     padding-bottom: 50px;
 }
+
 .footer-top-list {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
     width: 500px;
 }
+
 .footer-top-list-link {
     display: flex;
     flex-wrap: wrap;
 
 }
+
 .footer-container-links {
     display: flex;
     gap: 240px;
 }
+
 .footer-top-link {
     color: #FFF;
-    font-size: 24px;
+
     text-decoration: none;
     font-weight: 600;
     margin-bottom: 50px;
     display: block;
 }
+
 .footer-bottom {
     border-top: 1px solid #FFF;
 
 }
+
 .footer-bottom-text {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;;
     font-size: 20px;
     font-weight: 400;
     opacity: 0.5;
